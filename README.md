@@ -1,4 +1,4 @@
-<img src="Logo.png" alt="GitHub Banner" width="100%" />
+<img src="logo.gif" alt="GitHub Banner" width="100%" />
 
 # 💫 About Me:
 
