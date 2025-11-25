@@ -69,8 +69,8 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Vishnumanikandannair&theme=tokyonight&hide_border=true&cache_seconds=7200" height="170px"/>
+<p align="center"> 
+  <img src="https://streak-stats.demolab.com?user=Vishnumanikandannair&theme=tokyonight&hide_border=true" height="170px"/> 
 </p>
 
 
