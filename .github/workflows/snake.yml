@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Snake Animation
 
 on:
   schedule:
@@ -9,34 +9,38 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake SVG
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Vishnumanikandannair
-          outputs: dist/github-contribution-grid-snake-dark.svg
+          outputs: dist/snake.svg
 
-      - name: Create output branch if it doesn't exist
+      - name: Create output branch if missing
         run: |
           git fetch origin output || true
-          if ! git branch -r | grep origin/output; then
-            git checkout --orphan output
-            git reset --hard
-            echo "Initializing output branch" > README.md
+          if ! git ls-remote --exit-code origin output > /dev/null 2>&1; then
+            git checkout -b output
+            git rm -rf . || true
+            echo "🐍 GitHub Contribution Snake Output Branch" > README.md
             git add README.md
-            git commit -m "Init output branch"
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Initialize output branch"
             git push origin output
           fi
 
-      - name: Commit and push to output branch
+      - name: Push snake to output branch
         run: |
           git checkout output
-          cp dist/github-contribution-grid-snake-dark.svg .
-          git add github-contribution-grid-snake-dark.svg
-          git config user.nam
+          cp dist/snake.svg .
+          git add snake.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update snake animation" || echo "No c
