@@ -8,16 +8,17 @@
 ## 🧠 About Me
 
 - 🔐 SOC & Blue-Team focused cybersecurity practitioner  
-- 🛡️ Exploring **Detection Engineering, Threat Intelligence & DFIR**  
-- 🤖 Passionate about building **Recon, SIEM, and Security Automation tools**  
-- 🚀 Currently enhancing skills in **Wazuh, Splunk, Malware Analysis & Red-Blue Hybrid workflows**
+- 🛡 Exploring **Detection Engineering, Threat Intelligence & DFIR**  
+- 🤖 Building **Recon, SIEM & Security Automation tools**  
+- 🚀 Leveling up in **Wazuh, Splunk, Malware Analysis & Red-Blue Hybrid operations**
 
 ---
 
 ## ⚔️ Skills & Tools
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,linux,windows,ubuntu,kali,github,git,sqlite,mysql" /><br/>
+<img src="https://skillicons.dev/icons?i=python,bash,linux,windows,ubuntu,kali,github,git,sqlite,mysql"/>
+<br><br>
 <img src="https://img.shields.io/badge/Wazuh-19202E?style=for-the-badge&logo=wazuh&logoColor=00eaff"/>
 <img src="https://img.shields.io/badge/Splunk-2E8B57?style=for-the-badge&logo=splunk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wireshark-007ACC?style=for-the-badge&logo=wireshark&logoColor=white"/>
@@ -28,35 +29,35 @@
 
 ## 📊 GitHub Analytics
 
-### 💠 3D Contribution Graph  
+### 💠 3D Contribution Graph
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/main/profile-3d-contrib/profile-night-view.svg" width="800px"/>
+  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/main/profile-3d-contrib/profile-night-view.svg?timestamp=1" width="800px"/>
 </p>
 
 ---
 
-### 🐍 Contribution Snake  
+### 🐍 Contribution Snake (With Date)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/output/github-snake-dark.svg?date_format=%b%20%d,%Y"/>
 </p>
 
 ---
 
-### 🔥 GitHub Stats  
+### 🔥 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Vishnumanikandannair&theme=tokyonight&show_icons=true&hide_border=true&rank_icon=github" height="170px"/>
+  <img src="https://stats.quine.sh/Vishnumanikandannair/github?theme=dark" height="170px"/>
   <img src="https://streak-stats.demolab.com?user=Vishnumanikandannair&theme=tokyonight&hide_border=true" height="170px"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Vishnumanikandannair&layout=compact&theme=tokyonight&hide_border=true" height="170px"/>
+  <img src="https://stats.quine.sh/Vishnumanikandannair/languages?theme=dark" height="170px"/>
 </p>
-
 
 ---
 
-## 🏆 Achievements  
+## 🏆 Achievements
+
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=Vishnumanikandannair&theme=matrix&no-frame=true&row=1&margin-w=20"/>
 </p>
