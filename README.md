@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/main/banner.jpg" width="100%" />
+  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/main/banner.png" width="100%" />
 </p>
 
 
