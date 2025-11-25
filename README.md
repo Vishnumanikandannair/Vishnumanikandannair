@@ -20,7 +20,7 @@
 ### Languages & Operating Systems
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,powershell,linux,windows,ubuntu,kali,github,git"/>
+<img src="https://skillicons.dev/icons?i=python,bash,powershell,linux,windows,ubuntu,kali,github,git,arch,sql,java,html,css,arduino,debian,notion,raspberrypi,photoshop,supabase"/>
 </p>
 
 ---
