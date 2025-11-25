@@ -33,14 +33,6 @@
 <img src="https://img.shields.io/badge/Wireshark-0368FF?style=for-the-badge&logo=wireshark&logoColor=white"/>
 <img src="https://img.shields.io/badge/Burp%20Suite-F1583E?style=for-the-badge&logo=burpsuite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Autopsy-304FFE?style=for-the-badge&logo=googleforensic&logoColor=white"/>
-
-</p>
-
----
-
-### Top Kali Linux Tools I Use
-
-<p align="center">
 <img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white"/>
 <img src="https://img.shields.io/badge/Metasploit-9C1D20?style=for-the-badge&logo=metasploit&logoColor=white"/>
 <img src="https://img.shields.io/badge/John%20the%20Ripper-555555?style=for-the-badge&logo=security&logoColor=white"/>
