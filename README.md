@@ -20,8 +20,9 @@
 ### Languages & Operating Systems
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,powershell,linux,windows,ubuntu,kali,github,git,arch,SQL,java,html,css,arduino,debian,notion,raspberrypi,photoshop,supabase"/>
+  <img src="https://skillicons.dev/icons?i=python,bash,powershell,linux,windows,ubuntu,kali,github,git,arch,mysql,java,html,css,arduino,debian,notion,raspberrypi,ps,supabase" />
 </p>
+
 
 ---
 
