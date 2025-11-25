@@ -7,10 +7,11 @@
 
 ## 🧠 About Me
 
-- 🔐 SOC & Blue-Team focused cybersecurity practitioner  
-- 🛡 Passionate about **Threat Detection, DFIR & Detection Engineering**  
-- 🤖 Building tools for **Recon, SIEM automation, and Threat Hunting**  
-- 🚀 Learning: **Malware Analysis, Splunk Engineering, Wazuh, Adversary Simulation**  
+- 🔐 Cybersecurity Researcher specializing in **Blue Team Operations & SOC Analysis**  
+- 🛡 Certified: **CNSP | CCEP** with hands-on experience in **Log Monitoring, Incident Response & DFIR**  
+- 🎯 Skilled in **SIEM, SOAR, Threat Detection, and Purple Team Methodologies**  
+- 🧪 Experienced in **Vulnerability Assessment, Penetration Testing, and Tactical Adversary Simulation**  
+- 🤖 Building and automating **Recon Frameworks, Bug Bounty Recon Tools, Wi-Fi Hacking Utilities, and Security Automation Scripts**  
 
 ---
 
