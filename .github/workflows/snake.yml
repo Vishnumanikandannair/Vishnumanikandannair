@@ -1,82 +1,55 @@
-name: Advanced Snake Generator 🐍
+name: 🐍 Generate Multiple Snake Themes
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # Runs every 6 hours instead of 12
-  push:
-    branches: [main]
+    - cron: "0 */8 * * *" # runs every 8 hours
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 env:
-  SNAKE_USER: "Vishnumanikandannair"
-  SNAKE_OUTPUT_DIR: dist
+  USERNAME: "Vishnumanikandannair"
+  OUT_DIR: "dist"
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Enable Cache (Speed Boost)
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache
-          key: ${{ runner.os }}-snake-cache
-
-      - name: Generate Multiple Snake Themes
-        id: snake
+      - name: Generate Snake Variants
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ env.SNAKE_USER }}
+          github_user_name: ${{ env.USERNAME }}
           outputs: |
-            ${{ env.SNAKE_OUTPUT_DIR }}/snake-dark.svg?palette=github-dark&date_format=%b%20%d,%Y&speed=120
-            ${{ env.SNAKE_OUTPUT_DIR }}/snake-light.svg?palette=github-light&speed=110
-            ${{ env.SNAKE_OUTPUT_DIR }}/snake-ocean.svg?palette=github&color_snake=cyan&speed=140&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-            ${{ env.SNAKE_OUTPUT_DIR }}/snake-hacker.svg?palette=github-dark&color_snake=#00FF41&speed=150&color_dots=#1a1a1a,#004d00,#008000,#00cc00,#00ff41
+            ${{ env.OUT_DIR }}/snake-dark.svg?palette=github-dark&speed=120&date_format=%b%20%d,%Y
+            ${{ env.OUT_DIR }}/snake-hacker.svg?palette=github-dark&color_snake=#00FF41&speed=150
+            ${{ env.OUT_DIR }}/snake-light.svg?palette=github-light&speed=110
+            ${{ env.OUT_DIR }}/snake-blue.svg?palette=github&speed=140&color_snake=cyan
 
-      - name: Ensure Output Branch Exists
+      - name: Ensure output branch exists
         run: |
           git fetch origin output || true
-          if ! git ls-remote --exit-code origin output > /dev/null; then
+          if ! git ls-remote --heads origin output; then
             git checkout --orphan output
             git reset --hard
-            echo "🐍 Snake Animation Output Branch" > README.md
-            git add .
+            echo "🐍 Output branch created automatically." > README.md
+            git add README.md
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
-            git commit -m "Init Output Branch"
+            git commit -m "Initialize output"
             git push origin output
           fi
 
-      - name: Upload All Snakes to Output Branch
+      - name: Push Snake Files to Output Branch
         run: |
           git checkout output
-          cp ${{ env.SNAKE_OUTPUT_DIR }}/* .
+          cp ${{ env.OUT_DIR }}/* .
           git add .
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git commit -m "Snake Updated: $(date '+%Y-%m-%d %H:%M:%S')" || true
+          git commit -m "🐍 Updated snake graphics ($(date '+%Y-%m-%d %H:%M:%S'))" || true
           git push origin output
-
-      - name: Deploy Preview to GitHub Pages (Optional)
-        if: success()
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: snake-preview
-          publish_dir: ${{ env.SNAKE_OUTPUT_DIR }}
-
-      - name: Send Discord/Slack Webhook (Optional)
-        if: ${{ secrets.SNAKE_WEBHOOK != '' }}
-        run: |
-          curl -X POST -H 'Content-type: application/json' \
-          --data "{\"content\": \"🐍 Snake for **${{ env.SNAKE_USER }}** updated successfully!\"}" \
-          ${{ secrets.SNAKE_WEBHOOK }}
