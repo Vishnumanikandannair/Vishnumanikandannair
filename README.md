@@ -38,8 +38,9 @@
 
 ### 🐍 Contribution Snake (With Date)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/output/github-snake-dark.svg?date_format=%b%20%d,%Y"/>
+  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/output/snake.svg" />
 </p>
+
 
 ---
 
