@@ -70,8 +70,9 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Vishnumanikandannair&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishnumanikandannair&theme=tokyonight&hide_border=true" height="170px"/>
 </p>
+
 
 
 ---
