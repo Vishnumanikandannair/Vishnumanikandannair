@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&width=900&lines=Hey+I%27m+Vishnu+M+P%F0%9F%91%8B;Cybersecurity+Researcher+%7C+Purple+Team;SOC+Ops+%7C+Threat+Detection+%7C+DFIR;Security+Automation+%26+AI+Driven+Defense" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&width=900&lines=Hey+I%27m+Vishnu+M+P%F0%9F%91%8B;Cybersecurity+Researcher+%7C+Purple+Team;SOC+Ops+%7C+Detection+Engineering+%7C+DFIR;Security+Automation+%26+AI+Driven+Defense" />
 </p>
 
 ---
@@ -8,43 +8,64 @@
 ## 🧠 About Me
 
 - 🔐 SOC & Blue-Team focused cybersecurity practitioner  
-- 🛡 Exploring **Detection Engineering, Threat Intelligence & DFIR**  
-- 🤖 Building **Recon, SIEM & Security Automation tools**  
-- 🚀 Leveling up in **Wazuh, Splunk, Malware Analysis & Red-Blue Hybrid operations**
+- 🛡 Passionate about **Threat Detection, DFIR & Detection Engineering**  
+- 🤖 Building tools for **Recon, SIEM automation, and Threat Hunting**  
+- 🚀 Learning: **Malware Analysis, Splunk Engineering, Wazuh, Adversary Simulation**  
 
 ---
 
 ## ⚔️ Skills & Tools
 
+### Languages & Operating Systems
+
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,linux,windows,ubuntu,kali,github,git,sqlite,mysql"/>
-<br><br>
-<img src="https://img.shields.io/badge/Wazuh-19202E?style=for-the-badge&logo=wazuh&logoColor=00eaff"/>
+<img src="https://skillicons.dev/icons?i=python,bash,powershell,linux,windows,ubuntu,kali,github,git"/>
+</p>
+
+---
+
+### Cybersecurity Stack
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Siem-Wazuh-19202E?style=for-the-badge&logo=wazuh&logoColor=00eaff"/>
 <img src="https://img.shields.io/badge/Splunk-2E8B57?style=for-the-badge&logo=splunk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Wireshark-007ACC?style=for-the-badge&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/BurpSuite-F1583E?style=for-the-badge&logo=burpsuite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Wireshark-0368FF?style=for-the-badge&logo=wireshark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Burp%20Suite-F1583E?style=for-the-badge&logo=burpsuite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Autopsy-304FFE?style=for-the-badge&logo=googleforensic&logoColor=white"/>
+
 </p>
 
 ---
 
-## 📊 GitHub Analytics
+### Top Kali Linux Tools I Use
 
-### 💠 3D Contribution Graph
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/main/profile-3d-contrib/profile-night-view.svg?timestamp=1" width="800px"/>
+<img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Metasploit-9C1D20?style=for-the-badge&logo=metasploit&logoColor=white"/>
+<img src="https://img.shields.io/badge/John%20the%20Ripper-555555?style=for-the-badge&logo=security&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sqlmap-2C5BB4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Hydra-111111?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Responder-800000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Nikto-7A1F31?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Enum4linux-0A70FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Aircrack--ng-1A1A1A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Bettercap-181818?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ReconNG-003B6F?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Hashcat-171717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Beef--XSS-B31B1B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Dirbuster-5A5A5A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Gobuster-0E0E0E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Faraday-444444?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OSINT--Tools-0078FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Volatility-4B0082?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Netcat-1B1B1B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Snort-FC0026?style=for-the-badge"/>
 </p>
 
 ---
 
-### 🐍 Contribution Snake (With Date)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnumanikandannair/Vishnumanikandannair/output/snake.svg" />
-</p>
-
-
----
-
-### 🔥 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://stats.quine.sh/Vishnumanikandannair/github?theme=dark" height="170px"/>
