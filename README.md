@@ -60,12 +60,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://stats.quine.sh/Vishnumanikandannair/github?theme=dark" height="170px"/>
   <img src="https://streak-stats.demolab.com?user=Vishnumanikandannair&theme=tokyonight&hide_border=true" height="170px"/>
-</p>
-
-<p align="center">
-  <img src="https://stats.quine.sh/Vishnumanikandannair/languages?theme=dark" height="170px"/>
 </p>
 
 ---
